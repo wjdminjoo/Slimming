@@ -1,0 +1,713 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3133146990796854461
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3133146990796854460}
+  m_Layer: 0
+  m_Name: spriderLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3133146990796854460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146990796854461}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.94, y: 13.04, z: 0.4609375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3133146991996870010}
+  - {fileID: 3133146992509053208}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3133146991996870011
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3133146991996870010}
+  - component: {fileID: 3133146991996870009}
+  - component: {fileID: 3133146991996870008}
+  - component: {fileID: 7666266076425427248}
+  - component: {fileID: 55049256084692061}
+  - component: {fileID: 8097120783268477393}
+  - component: {fileID: 3726654019886310590}
+  m_Layer: 0
+  m_Name: back2_spider web
+  m_TagString: wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3133146991996870010
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.5016155, y: -1.6077433, z: -0.4609375}
+  m_LocalScale: {x: 1, y: 3, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3133146990796854460}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3133146991996870009
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 235eab1ce03ee18498a4c9340d9df4d3, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.15, y: 1.27}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &3133146991996870008
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 39fc0cc2504d8bf4894b049c09d0aac2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7666266076425427248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64986900f5172a74288e491648ba121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLiveUpdate: 1
+  mAlphaOpaqueThreshold: 0.1
+  mVertexReductionDistanceTolerance: 0
+  mMaxPointCount: -1
+  mDefaultMaxPointCount: 20
+  mThickness: 1
+  mFlipHorizontal: 0
+  mFlipVertical: 0
+  mConvex: 0
+  mFlipInsideOutside: 0
+  mCustomRotation: -888
+  mCustomScale: {x: 1, y: 1}
+  mCustomOffset: {x: 0, y: 0, z: 0}
+  mCopyOTSpriteFlipping: 1
+  mCopySmoothMovesSpriteDimensions: 1
+  mCustomTex: {fileID: 0}
+  mIsCustomAtlasRegionUsed: 0
+  mCustomAtlasFrameTitle: 
+  mCustomAtlasFramePositionInPixels: {x: 0, y: 0}
+  mCustomAtlasFrameSizeInPixels: {x: 0, y: 0}
+  mCustomAtlasFrameRotation: 0
+  mApplySmoothMovesScaleAnim: 1
+  mGroupSuffix: 
+  mColliderMeshFilename: Atlas_0_back2_spider web_30B5BFE6.dae
+  mWasInitialized: 1
+  mMainTex: {fileID: 2800000, guid: 235eab1ce03ee18498a4c9340d9df4d3, type: 3}
+  mColliderMeshDirectory: Assets/Colliders/Generated
+  mIsAtlasUsed: 1
+  mAtlasFrameIndex: 0
+  mAtlasFrameTitle: back2_spider web
+  mAtlasFramePositionInPixels: {x: 0, y: 0}
+  mAtlasFrameSizeInPixels: {x: 15, y: 127}
+  mAtlasFrameRotation: 0
+  mOutlineScale: {x: 0.15, y: 1.27}
+  mOutlineOffset: {x: 0, y: 0, z: 0}
+  mInactiveBaseImageIsAtlas: 0
+  mInactiveBaseImageWidth: 100
+  mInactiveBaseImageHeight: 100
+  mInactiveBaseImageOutlineScale: {x: 1, y: 1}
+  mInactiveBaseImageOutlineOffset: {x: 0, y: 0, z: 0}
+  mHasOTSpriteComponent: 0
+  mHasSmoothMovesSpriteComponent: 0
+  mIsSmoothMovesNodeWithoutSprite: 0
+  mHasSmoothMovesAnimBoneColliderComponent: 0
+  mHasUnity43SpriteRendererComponent: 1
+  mHasUnity43SpriteAnimatorComponent: 1
+  mHasUGUIImageSpriteComponent: 0
+  mHasUGUIRawImageComponent: 0
+  mColliderRegions: []
+  mActiveColliderIndex: 0
+  mGeneratedColliderData: []
+  mAnimatedColliderParameters:
+    mIsColliderAnimationUsed: 1
+    mSpriteFrames: []
+    mPolygonCollidersToSwitch: []
+    mEdgeCollidersToSwitch: []
+    mMeshCollidersToSwitch: []
+    mColliderIDStrings: []
+    mRemovedFrameReferenceIndex: ffffffff
+  mRegionIndependentParameters:
+    mLiveUpdate: 1
+    mAlphaOpaqueThreshold: 0.1
+    mVertexReductionDistanceTolerance: 0
+    mDefaultMaxPointCount: 20
+    mThickness: 2
+    mFlipHorizontal: 0
+    mFlipVertical: 0
+    mConvex: 0
+    mIsTrigger: 0
+    mFlipInsideOutside: 0
+    mLowerTop: 0
+    mRaiseBottom: 0
+    mCutLeft: 0
+    mCutRight: 0
+    mExpandTop: 0
+    mExpandBottom: 0
+    mExpandLeft: 0
+    mExpandRight: 0
+    mCustomRotation: 0
+    mCustomScale: {x: 1, y: 1}
+    mCustomOffset: {x: 0, y: 0, z: 0}
+    mCustomTex: {fileID: 0}
+    mSyncToParentSpriteRenderer: 0
+    mIsCustomAtlasRegionUsed: 0
+    mCustomAtlasFrameTitle: 
+    mCustomAtlasFramePositionInPixels: {x: 0, y: 0}
+    mCustomAtlasFrameSizeInPixels: {x: 15, y: 127}
+    mCustomAtlasFrameRotation: 0
+    mUpdateCalculationNeeded: 1
+    mSimpleColliderParametersChanged: 0
+    mUpdatedThickness: 1
+    mTargetColliderType: 1
+    mCopyOTSpriteFlipping: 1
+    mCopySmoothMovesSpriteDimensions: 1
+    mApplySmoothMovesScaleAnim: 1
+    mNumColliderAnimationFrames: 0
+    mCustomUnity43Sprite: {fileID: 0}
+  mColliderRegionParameters: []
+  mIslandRegionParameters: []
+  mSeaRegionParameters: []
+  mOTTileMapLayerIndex: 0
+  mOTTileMapMapPosX: 0
+  mOTTileMapMapPosY: 0
+  mOTTileMapWidth: 0
+  mHasOTTilesSpriteComponent: 0
+  mVersion: 2.8
+--- !u!114 &55049256084692061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f55b826df31e544f9a64a9bb6624477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mPolygonCollidersToSwitch: []
+  mEdgeCollidersToSwitch: []
+  mMeshCollidersToSwitch: []
+  mColliderIDStrings: []
+  mRemovedFrameReferenceIndex: ffffffff
+  mSyncToParentSpriteRenderer: 0
+  mActiveColliderIndex: 0
+  mActivePolygonCollider: {fileID: 0}
+  mActiveEdgeCollider: {fileID: 0}
+  mActiveMeshCollider: {fileID: 0}
+--- !u!60 &8097120783268477393
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.15, y: 1.27}
+    newSize: {x: 0.15, y: 1.27}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 0.024999999, y: -0.635}
+      - {x: 0.024999999, y: 0.635}
+      - {x: -0.035, y: 0.635}
+      - {x: -0.035, y: -0.635}
+--- !u!331 &3726654019886310590
+SpriteMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146991996870011}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10758, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_MaskAlphaCutoff: 0.2
+  m_FrontSortingLayerID: 0
+  m_BackSortingLayerID: 0
+  m_FrontSortingLayer: 0
+  m_BackSortingLayer: 0
+  m_FrontSortingOrder: 0
+  m_BackSortingOrder: 0
+  m_IsCustomRangeActive: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &3133146992509053209
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3133146992509053208}
+  - component: {fileID: 3133146992509053215}
+  - component: {fileID: 3133146992509053214}
+  - component: {fileID: 3089943848306372538}
+  - component: {fileID: 607822498490381178}
+  - component: {fileID: 3078254884242115536}
+  - component: {fileID: 3305705781404638727}
+  m_Layer: 0
+  m_Name: back2_spider
+  m_TagString: wall
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3133146992509053208
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 4.531834, y: -3.9932165, z: -0.4609375}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 3133146990796854460}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &3133146992509053215
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: fd5138926dc11484eb8ac18b14afa66d, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 0.81, y: 1.08}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!95 &3133146992509053214
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f8643519c8ffffb42b0fd49c022ffb76, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3089943848306372538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 64986900f5172a74288e491648ba121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mLiveUpdate: 1
+  mAlphaOpaqueThreshold: 0.1
+  mVertexReductionDistanceTolerance: 0
+  mMaxPointCount: -1
+  mDefaultMaxPointCount: 20
+  mThickness: 1
+  mFlipHorizontal: 0
+  mFlipVertical: 0
+  mConvex: 0
+  mFlipInsideOutside: 0
+  mCustomRotation: -888
+  mCustomScale: {x: 1, y: 1}
+  mCustomOffset: {x: 0, y: 0, z: 0}
+  mCopyOTSpriteFlipping: 1
+  mCopySmoothMovesSpriteDimensions: 1
+  mCustomTex: {fileID: 0}
+  mIsCustomAtlasRegionUsed: 0
+  mCustomAtlasFrameTitle: 
+  mCustomAtlasFramePositionInPixels: {x: 0, y: 0}
+  mCustomAtlasFrameSizeInPixels: {x: 0, y: 0}
+  mCustomAtlasFrameRotation: 0
+  mApplySmoothMovesScaleAnim: 1
+  mGroupSuffix: 
+  mColliderMeshFilename: Atlas_0_back2_spider_91D6946C.dae
+  mWasInitialized: 1
+  mMainTex: {fileID: 2800000, guid: fd5138926dc11484eb8ac18b14afa66d, type: 3}
+  mColliderMeshDirectory: Assets/Colliders/Generated
+  mIsAtlasUsed: 1
+  mAtlasFrameIndex: 0
+  mAtlasFrameTitle: back2_spider
+  mAtlasFramePositionInPixels: {x: 0, y: 0}
+  mAtlasFrameSizeInPixels: {x: 81, y: 108}
+  mAtlasFrameRotation: 0
+  mOutlineScale: {x: 0.81, y: 1.08}
+  mOutlineOffset: {x: 0, y: 0, z: 0}
+  mInactiveBaseImageIsAtlas: 0
+  mInactiveBaseImageWidth: 100
+  mInactiveBaseImageHeight: 100
+  mInactiveBaseImageOutlineScale: {x: 1, y: 1}
+  mInactiveBaseImageOutlineOffset: {x: 0, y: 0, z: 0}
+  mHasOTSpriteComponent: 0
+  mHasSmoothMovesSpriteComponent: 0
+  mIsSmoothMovesNodeWithoutSprite: 0
+  mHasSmoothMovesAnimBoneColliderComponent: 0
+  mHasUnity43SpriteRendererComponent: 1
+  mHasUnity43SpriteAnimatorComponent: 1
+  mHasUGUIImageSpriteComponent: 0
+  mHasUGUIRawImageComponent: 0
+  mColliderRegions: []
+  mActiveColliderIndex: 0
+  mGeneratedColliderData: []
+  mAnimatedColliderParameters:
+    mIsColliderAnimationUsed: 1
+    mSpriteFrames: []
+    mPolygonCollidersToSwitch: []
+    mEdgeCollidersToSwitch: []
+    mMeshCollidersToSwitch: []
+    mColliderIDStrings: []
+    mRemovedFrameReferenceIndex: ffffffff
+  mRegionIndependentParameters:
+    mLiveUpdate: 1
+    mAlphaOpaqueThreshold: 0.1
+    mVertexReductionDistanceTolerance: 0
+    mDefaultMaxPointCount: 20
+    mThickness: 2
+    mFlipHorizontal: 0
+    mFlipVertical: 0
+    mConvex: 0
+    mIsTrigger: 0
+    mFlipInsideOutside: 0
+    mLowerTop: 0
+    mRaiseBottom: 0
+    mCutLeft: 0
+    mCutRight: 0
+    mExpandTop: 0
+    mExpandBottom: 0
+    mExpandLeft: 0
+    mExpandRight: 0
+    mCustomRotation: 0
+    mCustomScale: {x: 1, y: 1}
+    mCustomOffset: {x: 0, y: 0, z: 0}
+    mCustomTex: {fileID: 0}
+    mSyncToParentSpriteRenderer: 0
+    mIsCustomAtlasRegionUsed: 0
+    mCustomAtlasFrameTitle: 
+    mCustomAtlasFramePositionInPixels: {x: 0, y: 0}
+    mCustomAtlasFrameSizeInPixels: {x: 81, y: 108}
+    mCustomAtlasFrameRotation: 0
+    mUpdateCalculationNeeded: 1
+    mSimpleColliderParametersChanged: 0
+    mUpdatedThickness: 1
+    mTargetColliderType: 1
+    mCopyOTSpriteFlipping: 1
+    mCopySmoothMovesSpriteDimensions: 1
+    mApplySmoothMovesScaleAnim: 1
+    mNumColliderAnimationFrames: 0
+    mCustomUnity43Sprite: {fileID: 0}
+  mColliderRegionParameters: []
+  mIslandRegionParameters: []
+  mSeaRegionParameters: []
+  mOTTileMapLayerIndex: 0
+  mOTTileMapMapPosX: 0
+  mOTTileMapMapPosY: 0
+  mOTTileMapWidth: 0
+  mHasOTTilesSpriteComponent: 0
+  mVersion: 2.8
+--- !u!114 &607822498490381178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f55b826df31e544f9a64a9bb6624477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mPolygonCollidersToSwitch: []
+  mEdgeCollidersToSwitch: []
+  mMeshCollidersToSwitch: []
+  mColliderIDStrings: []
+  mRemovedFrameReferenceIndex: ffffffff
+  mSyncToParentSpriteRenderer: 0
+  mActiveColliderIndex: 0
+  mActivePolygonCollider: {fileID: 0}
+  mActiveEdgeCollider: {fileID: 0}
+  mActiveMeshCollider: {fileID: 0}
+--- !u!60 &3078254884242115536
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.81, y: 1.08}
+    newSize: {x: 0.81, y: 1.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.105, y: -0.24}
+      - {x: -0.005, y: -0.31}
+      - {x: 0.024999999, y: -0.26999998}
+      - {x: 0.024999999, y: -0.26}
+      - {x: 0.024999999, y: -0.26999998}
+      - {x: 0.035, y: -0.31}
+      - {x: 0.095, y: -0.32}
+      - {x: 0.095, y: -0.53999996}
+      - {x: 0.185, y: -0.53999996}
+      - {x: 0.305, y: -0.28}
+      - {x: 0.355, y: -0.26999998}
+      - {x: 0.385, y: -0.26}
+      - {x: 0.39499998, y: -0.14}
+      - {x: 0.39499998, y: -0.099999994}
+      - {x: 0.345, y: -0.03}
+      - {x: 0.315, y: 0.04}
+      - {x: 0.315, y: 0.03}
+      - {x: 0.36499998, y: -0.02}
+      - {x: 0.385, y: -0.02}
+      - {x: 0.405, y: 0}
+      - {x: 0.405, y: 0.19}
+      - {x: 0.385, y: 0.26999998}
+      - {x: 0.265, y: 0.5}
+      - {x: 0.225, y: 0.53}
+      - {x: 0.205, y: 0.53}
+      - {x: 0.175, y: 0.52}
+      - {x: 0.195, y: 0.41}
+      - {x: 0.095, y: 0.53}
+      - {x: 0.015, y: 0.53999996}
+      - {x: -0.105, y: 0.53999996}
+      - {x: -0.195, y: 0.47}
+      - {x: -0.185, y: 0.51}
+      - {x: -0.205, y: 0.53999996}
+      - {x: -0.295, y: 0.53999996}
+      - {x: -0.405, y: 0.24}
+      - {x: -0.405, y: -0.24}
+      - {x: -0.345, y: -0.28}
+      - {x: -0.315, y: -0.24}
+      - {x: -0.24499999, y: -0.35999998}
+      - {x: -0.205, y: -0.5}
+      - {x: -0.155, y: -0.53999996}
+      - {x: -0.085, y: -0.53999996}
+      - {x: -0.074999996, y: -0.48}
+      - {x: -0.155, y: -0.35999998}
+      - {x: -0.155, y: -0.14999999}
+--- !u!331 &3305705781404638727
+SpriteMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3133146992509053209}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10758, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_MaskAlphaCutoff: 0.2
+  m_FrontSortingLayerID: 0
+  m_BackSortingLayerID: 0
+  m_FrontSortingLayer: 0
+  m_BackSortingLayer: 0
+  m_FrontSortingOrder: 0
+  m_BackSortingOrder: 0
+  m_IsCustomRangeActive: 0
+  m_SpriteSortPoint: 0

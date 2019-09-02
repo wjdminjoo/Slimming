@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Goal
+  - wall
+  - blood
+  - crown
+  - crownUI
+  - particleObject
+  - Gate
+  - UI
+  - UIPopup
+  - UiInCrown
+  - RankUI
+  - StagePopup
+  - Levelup
+  - PlayerControll
+  - crownParent
+  - PopUpCrown
+  - stageCrown
+  - Retire
+  - LevelButton
+  - PauseButton
+  - num
+  - PauseIcon
+  - FadeInOut
+  - HitItem
+  - CrownEffect
+  - Start
+  - BossWall
+  - Fire
+  - Slider
+  - UICanvasTime
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - 
+  - PostProcess
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 1243664705
+    locked: 0
+  - name: MenuParticle
+    uniqueID: 1312583313
+    locked: 0
+  - name: UIParticle
+    uniqueID: 352866043
+    locked: 0
